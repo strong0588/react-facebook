@@ -40,12 +40,18 @@ export default class Facebook extends Component<Props, State> {
     isReady: false,
   };
 
+
   componentDidMount(): void {
     const { wait } = this.props;
     if (!wait) {
       this.handleInit();
     }
   }
+
+    componentDidCatch(error, info) {
+        // You can also log the error to an error reporting service
+        console.log(error, info);
+    }
 
   handleInit = async (): Promise<FB> => {
     // do not run if SSR

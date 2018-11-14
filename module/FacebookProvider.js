@@ -68,6 +68,11 @@ export default class Facebook extends Component {
     }
   }
 
+  componentDidCatch(error, info) {
+    // You can also log the error to an error reporting service
+    console.log(error, info);
+  }
+
   render() {
     const { children } = this.props;
     const { isReady, error } = this.state;
