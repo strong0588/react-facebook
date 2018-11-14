@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/constants/MessengerColor.js"],"names":["BLUE","WHITE"],"mappings":";;;;;kBACe;AACbA,QAAM,MADO;AAEbC,SAAO;AAFM,C","file":"MessengerColor.js","sourcesContent":["// @flow\r\nexport default {\r\n  BLUE: 'blue',\r\n  WHITE: 'white',\r\n};\r\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/constants/CommentsOrderBy.js"],"names":["SOCIAL","REVERSE_TIME","TIME"],"mappings":";;;;;kBACe;AACbA,UAAQ,QADK;AAEbC,gBAAc,cAFD;AAGbC,QAAM;AAHO,C","file":"CommentsOrderBy.js","sourcesContent":["// @flow\r\nexport default {\r\n  SOCIAL: 'social',\r\n  REVERSE_TIME: 'reverse_time',\r\n  TIME: 'time',\r\n};\r\n"]}

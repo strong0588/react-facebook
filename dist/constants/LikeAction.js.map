@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/constants/LikeAction.js"],"names":["LIKE","RECOMMEND"],"mappings":";;;;;kBACe;AACbA,QAAM,MADO;AAEbC,aAAW;AAFE,C","file":"LikeAction.js","sourcesContent":["// @flow\r\nexport default {\r\n  LIKE: 'like',\r\n  RECOMMEND: 'recommend',\r\n};\r\n"]}
